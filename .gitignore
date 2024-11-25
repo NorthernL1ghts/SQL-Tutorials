@@ -1,0 +1,52 @@
+.vs/
+
+# Ignore SQL Server solution and project files
+*.ssmssln
+*.ssmssqlproj
+
+# Ignore temporary and log files
+*.tmp
+*.log
+
+# Ignore backup files
+*.bak
+*.sql~  # Editor backup files, like `file.sql~`
+*.swp    # Vim swap files
+
+# Ignore system files
+.DS_Store       # macOS file
+Thumbs.db       # Windows thumbnail cache
+desktop.ini     # Windows desktop configuration
+
+# Ignore IDE-specific files
+.vscode/        # VS Code workspace files
+.idea/          # JetBrains IDE files
+*.suo           # Visual Studio user options
+*.user          # Visual Studio user-specific files
+*.vs/           # Visual Studio generated files
+
+# Ignore Node.js/npm-related files (if applicable)
+node_modules/
+npm-debug.log
+package-lock.json
+yarn.lock
+
+# Ignore Python cache files (if applicable)
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore generated data files
+*.out
+*.class
+*.o
+*.obj
+
+# Ignore operating system-specific files
+*.swp  # Swap files
+*.swn  # Another swap extension
+*.bak  # Backup files
+
+# Ignore large database dumps
+*.sql.gz  # Compressed SQL dumps
+*.sql.zip
